@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(34, 167, 255);
+    color: rgb(255, 255, 255);
+    font: normal 15pt arial;
+    text-align: center;
+    padding: 50px;
+    line-height: 100px;
+}
+
+section.contentContador{
+    background: rgb(216, 213, 190);
+    color: black;
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    line-height: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.775);
+}
+
+section.contentContador div.contar{
+    width: 350px;
+    margin: auto;
+}
+
+section.contentContador div.contar p{
+    float: right;
+}
+
+section.contentContador img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100vh;
+}
+
+section.contentContador input{
+    line-height: 20px;
+    font: normal 15pt arial;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+section.contentContador input.submit{
+    background: rgb(169, 168, 168);
+    width: 200px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+section.contentContador input.submit:hover{
+    background: rgb(128, 121, 121);
+    color: white;
+    cursor: pointer;
+}
